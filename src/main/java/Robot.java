@@ -15,11 +15,11 @@ public class Robot {
         this.vie = 10;
     }
 
-
+//recuperation du nom du robot
     public String getNom() {
         return nom;
     }
-
+//recuperation du nombre de vie du robot
     public int getVie() {
         return vie;
     }
