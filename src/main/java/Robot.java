@@ -31,4 +31,14 @@ public class Robot {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
+    // Ajout de la methode isDead
+    public boolean isDead(){
+        return this.getVie() == 0;
+    }
+
+    @Override
+    public String toString(){
+        return  "Robot "+this.getNom();
+    }
 }
